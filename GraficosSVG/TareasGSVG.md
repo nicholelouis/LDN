@@ -29,3 +29,5 @@
 </svg>
 ```
 ## Resultado
+
+![GraficoResultado](https://github.com/nicholelouis/LDN/blob/main/GraficosSVG/img/Captura%20de%20pantalla%202024-03-02%20a%20la(s)%2003.58.30.png?raw=true)
