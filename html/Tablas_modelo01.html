@@ -6,27 +6,41 @@
     <meta name="description" content="Practica de tablas en html">
     <meta name="keywords" content="informatica, desarrollo web, tablas html">
     <title>Mis primeras tablas</title>
+    <style>
+        .texto-verde {
+            color: green;
+        }
+        .texto_izquierda {
+            text-align: left;
+        }
+        .texto_derecha {
+            text-align: right;
+        }
+        .texto_centro {
+            text-align: center;
+        }
+    </style>
 </head>
     <body>
         <table border="1px">
             <tr>
-                <td>Lenguaje de Marcas</td>
-                <td>Asignatura</td>
+                <td class="texto-verde texto_centro" colspan="2">Lenguaje de Marcas</td>
+                <td class="texto_derecha"colspan="2">Asignatura de primer curso</td>
             </tr>
             <tr>
-                <th><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/120_ipod.png?raw=true" ></th>
-                <td>HTML: Lenguaje básico para la creación de las páginas web</td>
+                <th class="texto_izquierda"><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/unnamed2.jpeg?raw=true" alt="Imagen HTML" width="50" height="50"></th>
+                <td colspan="2"><b>HTML</b>: Lenguaje básico para la creación de las páginas web</td>
             </tr>
             <tr>
-                <td></td>
-                <td>CSS: Lenguaje para aplicar estilos a letras, colores, bordes, etc.</td>
+                <td><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/unnamed.jpg?raw=true" alt="Imagen CSS" width="50" height="50"></td>
+                <td colspan="2"><b>CSS</b>: Lenguaje para aplicar estilos a letras, colores, bordes, etc.</td>
             </tr>
             <tr>
-                <td></td>
-                <td>XML: Lenguaje para marcadogénerico.</td>
+                <td><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/unnamed4.jpeg?raw=true" alt="Imagen XML" width="50" height="50"></td>
+                <td colspan="2"><b>XML</b>: Lenguaje para marcadogénerico.</td>
             </tr>
             <tr>
-                <td></td>
+                <td><img src="https://github.com/nicholelouis/LDN/blob/main/html/img/unnamed3.jpeg?raw=true" alt="Imagen dedo positivo" width="50" height="50"></td>
                 <td>
                     <li>Otras materias de primero:</li>
                     <ol type="i">
@@ -37,5 +51,5 @@
                         <li>Inglés</li>
                     </ol>
                 </td>
-                <td><a href= "http://www.iespuertodelacruz.es/">VER AL INSTITUTO</a></td>
+                <td class="texto_centro"><a href= "http://www.iespuertodelacruz.es/">VER AL INSTITUTO</a></td>
             </tr>
