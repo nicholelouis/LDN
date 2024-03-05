@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Nichole" content="Louis">
+    <meta name="description" content="Practica de tablas en html">
+    <meta name="keywords" content="informatica, desarrollo web, tablas html">
+    <title>Mis primeras tablas</title>
+    <style>
+        body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    table {
+      width: 50%;
+      border: 1px solid #000;
+      margin: auto;
+    }
+
+    th, td {
+      border: 1px solid #000;
+      padding: 8px;
+    }
+        .texto-verde {
+            color: green;
+        }
+        .texto_izquierda {
+            text-align: left;
+        }
+        .texto_derecha {
+            text-align: right;
+        }
+        .texto_centro {
+            text-align: center;
+        }
+    </style>
+</head>
+    <body>
+        <table border="1px">
+            <tr>
+                <td class="texto-verde" rowspan="5"><h1>Clases con ataques a distancia</h1></td>
+                <td>Razas</td>
+                <td class="texto-verde">Clases</td>
+                <td>Objetivos</td>
+                <td rowspan="5">Personajes con ataques cuerpo a cuerpo
+                    <ol>
+                        <li>Monje</li>
+                        <li>Picaro</li>
+                        <li>Caballero de La muerte</li>
+                        <li>Guerrero</li>
+                        <li>Paladin</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2">1.-Brujo:Personaje con atque a distancia</td>
+            </tr>
+            <tr>
+                <td colspan="2">2.-Mago:personaje con ataques a distancia</td>
+            </tr>
